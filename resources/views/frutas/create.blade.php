@@ -24,7 +24,7 @@
     </div>
 
     {!! Form::submit('Aceptar', ['class' => 'btn btn-primary']) !!}
-    <a class="btn btn-danger" href="{{ route('frutas.index') }}">Cancelar</a>
+    <a class="btn btn- red" href="{{ route('frutas.index') }}">Cancelar</a>
     {!! Form::close() !!}
    
 @stop
